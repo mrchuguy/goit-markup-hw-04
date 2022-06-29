@@ -114,9 +114,14 @@ body {
 /* Main section styles */
 /* Order section */
 .hero-section {
-	background: var(--dark-bg);
+	background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)) , url(../images/hero/hero-bg.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+	background-color: #C4C4C4;;
 	padding: 200px 0;
-	width: 100%;
+	max-width: 1600px;
+	margin: 0 auto;
 }
 .hero-title {
 	width: 696px;
