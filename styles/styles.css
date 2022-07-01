@@ -62,6 +62,7 @@ body {
 }
 .icon {
 	display: block;
+	line-height: 1;
 }
 .section-title {
 	font-weight: 700;
@@ -202,6 +203,12 @@ body {
 .peculiarities-list-item {
 	max-width: 270px;
 }
+.peculiarities-icon-conteiner {
+	display: flex;
+	padding: 25px 100px;
+	background: #f5f4fa;
+	border-radius: 4px;
+}
 .peculiarities-icon {
 	display: block;
 }
@@ -286,12 +293,20 @@ body {
 .team-item .social-link:focus .team-social-icon {
 	fill: var(--white);
 }
+/* client section */
+.client-item {
+	width: 170px;
+	height: 92px;
+}
 .client-link {
 	border: 1px solid var(--client-icon);
 	border-radius: 4px;
-	padding: 16px 32px;
-	display: block;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	outline: none;
+	width: 100%;
+	height: 100%;
 }
 .client-link:hover,
 .client-link:focus {
